@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="44afbc27-38cf-4596-a442-41c557fbde80" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/ApkFile/Prod.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.mylyn/.taskListIndex/segments_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.mylyn/.taskListIndex/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.mylyn/.tasks.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.mylyn/repositories.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback/0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.mylyn.github.ui/avatars.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.intro/introstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/version.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/ArrivalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/ArrivalPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/DeparturePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/DeparturePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/FlightsInformationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/FlightsInformationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/PreLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/PreLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/UserProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/UserProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageLocators/ChangePasswordPageLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/ChangePasswordPageLoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageLocators/CustomerFeedbackPageLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/CustomerFeedbackPageLoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageLocators/GiveAComplimentPageLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/GiveAComplimentPageLoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageLocators/MakeASuggestionPageLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/MakeASuggestionPageLoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageLocators/PlanYourJourneyPageLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/PlanYourJourneyPageLoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageLocators/PreLoginPageLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/PreLoginPageLoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageLocators/PromotionsPageLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/PromotionsPageLoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageLocators/RegisterComplaintPageLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/RegisterComplaintPageLoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageLocators/SpecialAssistancePageLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/SpecialAssistancePageLoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageLocators/StoresPageLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/StoresPageLoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/MobileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/MobileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/homePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/homePage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/loginPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/loginPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/signupPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/signupPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/userProfile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/userProfile.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/welcomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/welcomePage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/FlightPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/FlightPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageCarouselCardSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageCarouselCardSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/PreLoginPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/PreLoginPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/UserProfileSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/UserProfileSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test output/PdfReport/ExtentPdf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output-thread/chosen.jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output-thread/chosen.jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output-thread/chosen.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/test-output-thread/chosen.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output-thread/chosen.override.css" beforeDir="false" afterPath="$PROJECT_DIR$/test-output-thread/chosen.override.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output-thread/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output-thread/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output-thread/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output-thread/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output-thread/jquery-3.5.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output-thread/jquery-3.5.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output-thread/report.css" beforeDir="false" afterPath="$PROJECT_DIR$/test-output-thread/report.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output-thread/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output-thread/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output-thread/vis-timeline-graph2d.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/test-output-thread/vis-timeline-graph2d.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output-thread/vis-timeline-graph2d.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output-thread/vis-timeline-graph2d.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output-thread/vis-timeline-graph2d.override.css" beforeDir="false" afterPath="$PROJECT_DIR$/test-output-thread/vis-timeline-graph2d.override.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/SparkReport/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SparkReport/Index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2pIkiyjokFRNX3S1diAb3Qq0DOt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: loginPage.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: preLoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: welcomePage.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Logout Functionality.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User changes password successfully.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify Functionality of Submit button after selecting the terminal KCH in prelogin page.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify Functionality of change language in prelogin.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify that users are able to view all personalized menus when selects Terminal 1.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify that users are able to view all personalized menus when selects Terminal 2.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify the Flights Functionality.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify the navigation flow of the Favorites Page.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify the navigation flow of the Feedback Page.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.MyAirports [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.MyAirports [compile].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mind-Graph/Downloads/Kapil_MyAirports/MyAirport/src/main/ApkFile&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mind-Graph\Downloads\Kapil_MyAirports\MyAirport\src\main\ApkFile" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mind-Graph\Downloads\Kapil_MyAirports\MyAirport\src\main\ApkFile" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestRunner">
+    <configuration name="Scenario: Verify that users are able to view all personalized menus when selects Terminal 1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/featureFiles/homePage.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MyAirports" />
+      <option name="NAME_FILTER" value="^Verify that users are able to view all personalized menus when selects Terminal 1$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify that users are able to view all personalized menus when selects Terminal 1$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify that users are able to view all personalized menus when selects Terminal 1" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify that users are able to view all personalized menus when selects Terminal 2" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/featureFiles/homePage.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MyAirports" />
+      <option name="NAME_FILTER" value="^Verify that users are able to view all personalized menus when selects Terminal 2$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify that users are able to view all personalized menus when selects Terminal 2$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify that users are able to view all personalized menus when selects Terminal 2" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify the Flights Functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/featureFiles/homePage.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MyAirports" />
+      <option name="NAME_FILTER" value="^Verify the Flights Functionality$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify the Flights Functionality$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify the Flights Functionality" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify the navigation flow of the Feedback Page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/featureFiles/userProfile.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MyAirports" />
+      <option name="NAME_FILTER" value="^Verify the navigation flow of the Feedback Page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify the navigation flow of the Feedback Page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify the navigation flow of the Feedback Page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyAirports" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testRunner" />
+      <option name="MAIN_CLASS_NAME" value="testRunner.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Verify that users are able to view all personalized menus when selects Terminal 2" />
+        <item itemvalue="Cucumber Java.Scenario: Verify the Flights Functionality" />
+        <item itemvalue="Cucumber Java.Scenario: Verify that users are able to view all personalized menus when selects Terminal 1" />
+        <item itemvalue="Cucumber Java.Scenario: Verify the navigation flow of the Feedback Page" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44afbc27-38cf-4596-a442-41c557fbde80" name="Changes" comment="" />
+      <created>1732461107738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732461107738</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:cucumber-java" />
+    <option featureType="dependencySupport" implementationName="java:io.grpc:grpc-api" />
+    <option featureType="dependencySupport" implementationName="java:io.reactivex.rxjava3:rxjava" />
+    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/utils/MobileUtils.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
