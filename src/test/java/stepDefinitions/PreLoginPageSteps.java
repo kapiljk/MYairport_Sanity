@@ -15,7 +15,7 @@ public class PreLoginPageSteps {
     private AndroidDriver _driver;
     private PageObjectManager pm;
 
-    @Before(value = "@pre-login", order = 0)
+    @Before(value = "@pre-login or @BKP", order = 0)
     public void launchApplication() throws MalformedURLException {
         _driver = BaseSteps.getDriver();
         pm = new PageObjectManager(_driver);

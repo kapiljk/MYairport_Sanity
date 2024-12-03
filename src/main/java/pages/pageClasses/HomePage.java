@@ -53,6 +53,7 @@ public class HomePage extends MobileUtils implements HomePageLoc {
     }
 
     public void clickOnEssentialAndServicesIcon() {
+        waitForElementPresence(btnCards,"Plan My Journey card");
         click(getTabs("Essential & Services"), "Essential & Services Icon");
     }
 

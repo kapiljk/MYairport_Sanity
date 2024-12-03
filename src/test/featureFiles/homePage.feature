@@ -124,3 +124,4 @@ Feature: Verify Home Page Functionality
     Then the user should be navigated to the MY PROFILE Page
     When the user clicks on the Back button on the MY PROFILE Page
     Then the user should be navigated back to the Home Page
+

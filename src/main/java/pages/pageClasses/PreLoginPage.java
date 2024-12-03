@@ -38,8 +38,23 @@ public class PreLoginPage extends MobileUtils implements PreLoginPageLoc {
 
     public void changeTerminalToKCH() {
         System.out.println("Selecting KCH Terminal in Pre Login Page");
-        click(ddSelAirport, "Termainal Dropdown");
+        click(ddAirport, "Termainal Dropdown");
+        waitForElementPresence(ddSelAirKCH, "KCH Terminal");
         click(ddSelAirKCH, "KCH Terminal");
+    }
+
+    public void changeTerminalToBKI() {
+        System.out.println("Selecting KCH Terminal in Pre Login Page");
+        click(ddAirport, "Termainal Dropdown");
+        waitForElementPresence(ddSelAirBKI, "BKI Terminal");
+        click(ddSelAirBKI, "BKI Terminal");
+    }
+
+    public void changeTerminalToPEN() {
+        System.out.println("Selecting KCH Terminal in Pre Login Page");
+        click(ddAirport, "Termainal Dropdown");
+        waitForElementPresence(ddSelAirPEN, "PEN Terminal");
+        click(ddSelAirPEN, "PEN Terminal");
     }
 
     public void verifyLangChangeToEnglish() {

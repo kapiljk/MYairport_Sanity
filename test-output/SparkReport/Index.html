@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Mindgraph Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Dec 2, 2024 09:35:52 am</span></a>
+<a href="#"><span class="badge badge-primary">Dec 3, 2024 09:47:53 pm</span></a>
 </li>
 </ul>
 </div>
@@ -57,6 +57,11 @@
 <span class="ico"><i class="fa fa-tag"></i></span>
 </a>
 </li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
 </ul>
 </div>
 </div>      <div class="vcontainer">
@@ -66,25 +71,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Dec 2, 2024 09:35:52 am</h3>
+<h3>Dec 3, 2024 09:47:53 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Dec 2, 2024 09:41:16 am</h3>
+<h3>Dec 3, 2024 09:53:29 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Features Failed</p>
-<h3>0</h3>
+<h3>1</h3>
 </div></div>
 </div>
 </div>
@@ -100,12 +105,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
-<b>1</b> features passed
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> features failed,
+<small data-tooltip='100%'><b>1</b> features failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -123,9 +128,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>1</b> scenarios passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> scenarios failed,
+<small data-tooltip='100%'><b>1</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -143,10 +148,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>6</b> steps passed</small></div>
+<div><small data-tooltip='38%'><b>5</b> steps passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> steps failed,
-<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='7%'><b>1</b> steps failed,
+<b>7</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -162,7 +167,7 @@
 </div></div>
 <script>
 var timeline = {
-"Login and Logout Functionality":319.744
+"Validate the functionality of Essential Services flow":332.901
 };
 </script>
 <div class="row">
@@ -172,20 +177,20 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@login</td>
+<td>@essentials</td>
+<td>0</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>0%</td>
 </tr>
 <tr>
 <td>@sanity</td>
+<td>0</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>0%</td>
 </tr>
 </tbody>
 </table></div>
@@ -222,21 +227,21 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 1,
-failParent: 0,
+passParent: 0,
+failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 1,
-failChild: 0,
+passChild: 0,
+failChild: 1,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 6,
-failGrandChild: 0,
+passGrandChild: 5,
+failGrandChild: 1,
 warningGrandChild: 0,
-skipGrandChild: 0,
+skipGrandChild: 7,
 infoGrandChild: 0,
 eventsCount: 5,
 };
@@ -250,7 +255,7 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -258,31 +263,31 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@login</a><a class="dropdown-item" href="#">@sanity</a>
+<a class="dropdown-item" href="#">@essentials</a><a class="dropdown-item" href="#">@sanity</a>
 </ul>
 </li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Login and Logout Functionality</p>
+            <p class="name">Validate the functionality of Essential Services flow</p>
             <p class="text-sm">
-              <span>9:35:56 am</span> / <span>00:05:19:744</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>9:47:56 pm</span> / <span>00:05:32:901</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Login and Logout Functionality</h5>
-<span class='badge badge-success'>12.02.2024 9:35:56 am</span>
-<span class='badge badge-danger'>12.02.2024 9:41:16 am</span>
-<span class='badge badge-default'>00:05:19:744</span>
+<h5 class="test-status text-fail">Validate the functionality of Essential Services flow</h5>
+<span class='badge badge-success'>12.03.2024 9:47:56 pm</span>
+<span class='badge badge-danger'>12.03.2024 9:53:29 pm</span>
+<span class='badge badge-default'>00:05:32:901</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -295,39 +300,79 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Logout Functionality</div>
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Verify that all functionalities are working fine in EssentialServices</div>
       </div>
     </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="stepDefinitions.LoginPageSteps.the_user_clicks_on_the_user_account()">
-                <span>And the user clicks on the user account</span>
+              <div class="step pass-bg" title="stepDefinitions.EssentialServicesPageSteps.the_user_clicks_on_the_essential_services_button_on_the_home_page()">
+                <span>Given the user clicks on the Essential Services button on the home page</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinitions.LoginPageSteps.the_user_navigates_to_the_user_profile_page()">
-                <span>Then the user navigates to the user profile page</span>
+              <div class="step pass-bg" title="stepDefinitions.EssentialServicesPageSteps.the_user_navigates_to_the_essential_services_page()">
+                <span>Then the user navigates to the Essential Services page</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinitions.LoginPageSteps.clicks_on_the_Logout_button()">
-                <span>And clicks on the Logout button</span>
+              <div class="step pass-bg" title="stepDefinitions.EssentialServicesPageSteps.clicks_on_the_terminal_dropdown_to_change_the_terminal_in_the_essential_services_page()">
+                <span>And clicks on the terminal dropdown to change the terminal in the Essential Services page</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinitions.LoginPageSteps.the_user_navigates_to_the_Logout_page()">
-                <span>Then the user navigates to the Logout page</span>
+              <div class="step pass-bg" title="stepDefinitions.EssentialServicesPageSteps.clicks_on_any_of_the_services_from_the_services_list()">
+                <span>Then clicks on any of the Services from the Services list</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinitions.LoginPageSteps.clicks_on_the_Yes_button_to_Logout()">
-                <span>And clicks on the Yes button to Logout</span>
+              <div class="step pass-bg" title="stepDefinitions.EssentialServicesPageSteps.verifies_that_the_user_navigates_to_the_same_service_page()">
+                <span>And verifies that the user navigates to the same Service page</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinitions.LoginPageSteps.navigates_to_the_home_page_with_successfully_logged_out()">
-                <span>Then navigates to the home page with successfully logged out</span>
+              <div class="step fail-bg" title="stepDefinitions.StoresSteps.clicks_on_the_favorite_to_add_to_favorites()">
+                <span>Then clicks on the favorite to add to favorites</span>
       <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "utils.PageObjectManager.storesPage()" because "this.pm" is null
+	at stepDefinitions.StoresSteps.clicks_on_the_favorite_to_add_to_favorites(StoresSteps.java:71)
+	at ✽.clicks on the favorite to add to favorites(file:///C:/Users/Mind-Graph/Downloads/Kapil_MyAirports/MyAirport/src/test/featureFiles/essentials.feature:10)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.StoresSteps.verifies_the_Rating_Review_text_in_the_POI_details_page()">
+                <span>Then verifies the Rating Review text in the POI details page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.StoresSteps.verifies_the_Take_Me_There_text_in_the_POI_details_page()">
+                <span>Then verifies the Take Me There text in the POI details page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.StoresSteps.verifies_the_back_arrow_icon_in_the_poi_details_page()">
+                <span>And verifies the back arrow icon in the POI details page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.StoresSteps.clicks_on_the_back_arrow_icon_in_the_poi_details_page()">
+                <span>And clicks on the back arrow icon in the POI details page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.EssentialServicesPageSteps.verifies_that_the_essential_service_page_is_displayed()">
+                <span>Then verifies that the Essential Service page is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.EssentialServicesPageSteps.verifies_the_back_arrow_icon_in_the_essential_service_page_and_clicks_on_the_back_arrow_icon()">
+                <span>And verifies the back arrow icon in the Essential Service page and clicks on the back arrow icon</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.StoresSteps.verifies_that_it_takes_the_user_to_the_home_page()">
+                <span>Then verifies that it takes the user to the home page</span>
+      <div>Step skipped
       </div>
               </div>
           </div>
@@ -356,15 +401,15 @@ eventsCount: 5,
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">@login</p>
+<p class="name">@essentials</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@login</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
+<h4>@essentials</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -375,13 +420,13 @@ eventsCount: 5,
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>09:35:56 am</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:47:56 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>Logout Functionality</a>
+<a href="#" class="linked" test-id='1' id='2'>Verify that all functionalities are working fine in EssentialServices</a>
 <div class="">
-<span class="badge badge-default">Login and Logout Functionality.Logout Functionality</span>
+<span class="badge badge-default">Validate the functionality of Essential Services flow.Verify that all functionalities are working fine in EssentialServices</span>
 </div>
 </td>
 </tr>
@@ -392,7 +437,7 @@ eventsCount: 5,
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
 </span>
 <p class="name">@sanity</p>
 <p class="duration text-sm">1 tests</p>
@@ -400,7 +445,7 @@ eventsCount: 5,
 <div class="test-contents d-none">
 <div class="info">
 <h4>@sanity</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -411,13 +456,65 @@ eventsCount: 5,
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>09:35:56 am</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:47:56 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>Logout Functionality</a>
+<a href="#" class="linked" test-id='1' id='2'>Verify that all functionalities are working fine in EssentialServices</a>
 <div class="">
-<span class="badge badge-default">Login and Logout Functionality.Logout Functionality</span>
+<span class="badge badge-default">Validate the functionality of Essential Services flow.Verify that all functionalities are working fine in EssentialServices</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.NullPointerException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.NullPointerException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:53:27 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='11'>Then clicks on the favorite to add to favorites</a>
+<div class="">
+<span class="badge badge-default">Validate the functionality of Essential Services flow.Verify that all functionalities are working fine in EssentialServices.Then clicks on the favorite to add to favorites</span>
 </div>
 </td>
 </tr>

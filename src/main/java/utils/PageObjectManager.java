@@ -47,6 +47,9 @@ public class PageObjectManager {
     public MenuPopup menuPopup;
     public YouAreNowTrackingPopup youAreNowTrackingPopup;
     public PreLoginPage preLoginPage;
+    public OtherWelcomePage otherWelcomePage;
+    public EssentialServicePage essentialServicePage;
+
 
     public PageObjectManager(AndroidDriver driver) {
         this._driver = driver;
@@ -59,6 +62,19 @@ public class PageObjectManager {
         return arrivalPage;
     }
 
+    public EssentialServicePage essentialServicePage() {
+        if (essentialServicePage == null) {
+            essentialServicePage = new EssentialServicePage(_driver);
+        }
+        return essentialServicePage;
+    }
+
+    public OtherWelcomePage otherWelcomePage() {
+        if (otherWelcomePage == null) {
+            otherWelcomePage = new OtherWelcomePage(_driver);
+        }
+        return otherWelcomePage;
+    }
 
 
     public BookingServicePage bookingServicePage() {
