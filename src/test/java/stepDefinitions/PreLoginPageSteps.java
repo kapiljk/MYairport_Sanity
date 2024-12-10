@@ -15,7 +15,7 @@ public class PreLoginPageSteps {
     private AndroidDriver _driver;
     private PageObjectManager pm;
 
-    @Before(value = "@pre-login or @BKP", order = 0)
+    @Before(value = "@pre-login or @sanity", order = 0)
     public void launchApplication() throws MalformedURLException {
         _driver = BaseSteps.getDriver();
         pm = new PageObjectManager(_driver);
@@ -64,4 +64,51 @@ public class PreLoginPageSteps {
     public void the_user_clicks_on_submit_button_on_the_prelogin_page() {
         pm.preLoginPage().clickOnSubmitButton();
     }
+
+    @When("the user select the BKI-Kota Kinabalu from the dropdown in Prelogin Page")
+    public void the_user_select_the_bki_kota_kinabalu_from_the_dropdown_in_prelogin_page() {
+      pm.preLoginPage().changeTerminalToBKI();
+    }
+    @When("Verify terminal selected as BKI")
+    public void verify_terminal_selected_as_bki() {
+    pm.preLoginPage().verifyTerminalBKI();
+    }
+    @Then("the user select the KCH-Kuching from the dropdown in Prelogin Page")
+    public void the_user_select_the_kch_kuching_from_the_dropdown_in_prelogin_page() {
+        pm.preLoginPage().changeTerminalToKCH();
+    }
+    @Then("Verify terminal selected as KCH")
+    public void verify_terminal_selected_as_kch() {
+        pm.preLoginPage().verifyTerminalKCH();
+    }
+    @Then("the user select the PEN-Penang from the dropdown in Prelogin Page")
+    public void the_user_select_the_pen_penang_from_the_dropdown_in_prelogin_page() {
+        pm.preLoginPage().changeTerminalToPEN();
+    }
+    @Then("Verify terminal selected as PEN")
+    public void verify_terminal_selected_as_pen() {
+        pm.preLoginPage().verifyTerminalPEN();
+    }
+    @Then("the user select the Terminal2 from the dropdown in Prelogin Page")
+    public void the_user_select_the_terminal2_from_the_dropdown_in_prelogin_page() {
+        pm.preLoginPage().changeTerminalToTwo();
+    }
+    @Then("Verify terminal selected as Terminal2")
+    public void verify_terminal_selected_as_terminal2() {
+        pm.preLoginPage().verifyTerminalTwo();
+    }
+    @Then("the user select the Terminal1 from the dropdown in Prelogin Page")
+    public void the_user_select_the_terminal1_from_the_dropdown_in_prelogin_page() {
+        pm.preLoginPage().changeTerminalToOne();
+    }
+    @Then("Verify terminal selected as Terminal1")
+    public void verify_terminal_selected_as_terminal1() {
+        pm.preLoginPage().verifyTerminalOne();
+    }
+    @Then("clicks on the Submit button in Prelogin Page")
+    public void clicks_on_the_submit_button_in_prelogin_page() {
+        pm.preLoginPage().clickOnSubmitButton();
+    }
+
+
 }

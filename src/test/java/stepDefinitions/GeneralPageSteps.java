@@ -13,22 +13,22 @@ public class GeneralPageSteps {
     private AndroidDriver _driver;
     private PageObjectManager pm;
 
-    @Before(value = "@general", order = 0)
+    @Before(value = "@general or @sanity", order = 0)
     public void init() throws MalformedURLException {
         _driver = BaseSteps.getDriver();
         pm = new PageObjectManager(_driver);
     }
 
-    @After("@general")
+    @After("@general or @sanity")
     public void closeApp() {
         BaseSteps.closeDriver();
     }
 
-    @Before(value = "@general", order = 1)
+    @Before(value = "@general or @sanity", order = 1)
     public void beforeWelcomePage() {
         BaseSteps.prelogins();
     }
-    @Before(value = "@general", order = 2)
+    @Before(value = "@general or @sanity", order = 2)
     public void login_Into_Application_And_Enable_Location_If_Required() {
         BaseSteps.loginApplication();
     }

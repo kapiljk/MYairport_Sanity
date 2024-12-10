@@ -17,6 +17,11 @@ public interface EssentialServicesPageLoc {
     By btnServiceBack = By.xpath("(//*[@class='android.widget.TextView'])[1]/preceding-sibling::*[1]/*");
     By serviceTitle = By.xpath("(//*[@class='android.widget.TextView'])[1]");
 
+    By lblHeadingService = By.xpath("//*[@text='About']/../*[1]/following-sibling::*[1]");
+    By lblTakeMeThere = By.xpath("//*[@text='Take Me There']");
+    By lblRatingReview = By.xpath("//*[@text='RATING REVIEW']");
+    By btnBackService = By.xpath("//*[@text='About']/../*[1]/*");
+    By btnFavouriteService = By.xpath("//*[@text='Favourite']/../*[1]");
 
 
 

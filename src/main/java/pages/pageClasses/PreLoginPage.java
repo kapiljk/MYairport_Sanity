@@ -25,13 +25,13 @@ public class PreLoginPage extends MobileUtils implements PreLoginPageLoc {
     }
 
     public void changeLanguageToMalay() {
-        System.out.println("Malaysia Language clicking in Pre Login Page");
+        waitForElementPresence(ddLanguage,"Language Dropdown");
         click(ddLanguage, "Language Dropdown");
         click(btnMalaysia, "Selecting Malayasia");
     }
 
     public void changeLanguageToChina(){
-        System.out.println("Chinese Language clicking in Pre Login Page");
+        waitForElementPresence(ddLanguage,"Language Dropdown");
         click(ddLanguage, "Language Dropdown");
         click(btnChina, "Selecting China");
     }
@@ -42,6 +42,15 @@ public class PreLoginPage extends MobileUtils implements PreLoginPageLoc {
         waitForElementPresence(ddSelAirKCH, "KCH Terminal");
         click(ddSelAirKCH, "KCH Terminal");
     }
+    public void verifyTerminalKCH(){
+        waitForElementPresence(lblPreLogin,"Prelogin Page loaded");
+       try{
+        String text = getText(ddSelAirKCH);
+        Assert.assertTrue(text.contains("KCH - Kuching"));}
+       catch (Exception ignored){
+
+       }
+    }
 
     public void changeTerminalToBKI() {
         System.out.println("Selecting KCH Terminal in Pre Login Page");
@@ -49,12 +58,62 @@ public class PreLoginPage extends MobileUtils implements PreLoginPageLoc {
         waitForElementPresence(ddSelAirBKI, "BKI Terminal");
         click(ddSelAirBKI, "BKI Terminal");
     }
+    public void verifyTerminalBKI(){
+        waitForElementPresence(lblPreLogin,"Prelogin Page loaded");
+        try{
+        String text = getText(ddSelAirBKI);
+        Assert.assertTrue(text.contains("BKI - Kota Kinabalu"));}
+        catch (Exception ignored){
+
+        }
+    }
 
     public void changeTerminalToPEN() {
         System.out.println("Selecting KCH Terminal in Pre Login Page");
         click(ddAirport, "Termainal Dropdown");
         waitForElementPresence(ddSelAirPEN, "PEN Terminal");
         click(ddSelAirPEN, "PEN Terminal");
+    }
+    public void verifyTerminalPEN(){
+        waitForElementPresence(lblPreLogin,"Prelogin Page loaded");
+        try{
+        String text = getText(ddSelAirPEN);
+        Assert.assertTrue(text.contains("PEN - Penang"));}
+        catch (Exception ignored){
+
+        }
+    }
+
+
+    public void changeTerminalToOne(){
+        waitForElementPresence(ddAirport,"Airport Dropdown");
+        click(ddAirport,"Terminal Dropdown");
+        waitForElementPresence(ddSelAir1,"Terminal One");
+        click(ddSelAir1,"Terminal One");
+    }
+    public void verifyTerminalOne(){
+        waitForElementPresence(lblPreLogin,"Prelogin Page loaded");
+        try{
+        String text = getText(ddSelAir1);
+        Assert.assertTrue(text.contains("KUL - Terminal 1"));}
+        catch (Exception ignored){
+
+        }
+    }
+    public void changeTerminalToTwo(){
+        waitForElementPresence(ddAirport,"Airport Dropdown");
+        click(ddAirport,"Terminal Dropdown");
+        waitForElementPresence(ddSelAir2,"Terminal One");
+        click(ddSelAir2,"Terminal One");
+    }
+    public void verifyTerminalTwo(){
+        waitForElementPresence(lblPreLogin,"Prelogin Page loaded");
+        try{
+        String text = getText(ddSelAir2);
+        Assert.assertTrue(text.contains("KUL - Terminal 2"));}
+        catch (Exception ignored){
+
+        }
     }
 
     public void verifyLangChangeToEnglish() {

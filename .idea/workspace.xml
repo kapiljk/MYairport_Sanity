@@ -5,25 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44afbc27-38cf-4596-a442-41c557fbde80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/EssentialServicePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/OtherWelcomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/EssentialServicesPageLoc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/OtherWelcomePageLoc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/featureFiles/essentials.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/featureFiles/otherWelcomePage.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/EssentialServicesPageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/OtherWelcomePageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/EssentialServicePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/EssentialServicePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/OtherWelcomePage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/PreLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/PreLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageLocators/EssentialServicesPageLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/EssentialServicesPageLoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageLocators/OtherWelcomePageLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/WelcomePage2Loc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageLocators/PreLoginPageLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/PreLoginPageLoc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageLocators/WelcomePageLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/WelcomePageLoc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/PageObjectManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/homePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/homePage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/essentials.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/essentials.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/otherWelcomePage.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/featureFiles/preLoginPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/preLoginPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseTestSteps/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseTestSteps/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/EssentialServicesPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/EssentialServicesPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/FlightPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/FlightPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/GeneralPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/GeneralPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageCarouselCardSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageCarouselCardSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/OtherWelcomePageSteps.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/PreLoginPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/PreLoginPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StoresSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StoresSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/UserProfileSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/UserProfileSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/WelcomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/WelcomePageSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test output/PdfReport/Sanity Trail.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test output/PdfReport/ExtentPdf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/test output/PdfReport/ExtentPdf.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output-thread/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output-thread/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/SparkReport/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SparkReport/Index.html" afterDir="false" />
     </list>
@@ -62,11 +69,14 @@
     &quot;Cucumber Java.Feature: preLoginPage.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Feature: welcomePage.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Logout Functionality.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Signup with Valid Information.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: User changes password successfully.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify All Functionalities in prelogin.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Verify Functionality of Submit button after selecting the terminal BKI in prelogin page.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Verify Functionality of Submit button after selecting the terminal KCH in prelogin page.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Verify Functionality of Submit button after selecting the terminal PEN in prelogin page.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Verify Functionality of change language in prelogin.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify that all functionalities are working fine in EssentialServices (1).executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Verify that all functionalities are working fine in EssentialServices.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Verify that users are able to view all personalized menus when selects Terminal 1.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Verify that users are able to view all personalized menus when selects Terminal 2.executor&quot;: &quot;Run&quot;,
@@ -77,8 +87,10 @@
     &quot;Maven.MyAirports [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.MyAirports [compile].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;TestNG.TestRunner.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Mind-Graph/Downloads/Kapil_MyAirports/MyAirport/src/main/ApkFile&quot;
   }
@@ -92,14 +104,15 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.TestRunner">
-    <configuration name="Feature: EssessntialServices" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Logout Functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/featureFiles/EssessntialServices.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/featureFiles/loginPage.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MyAirports" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: EssessntialServices" />
+      <option name="NAME_FILTER" value="^Logout Functionality$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Logout Functionality$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Logout Functionality" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -111,15 +124,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify Functionality of Submit button after selecting the terminal KCH in prelogin page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Signup with Valid Information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/featureFiles/otherWelcomePage.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/featureFiles/signupPage.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MyAirports" />
-      <option name="NAME_FILTER" value="^Verify Functionality of Submit button after selecting the terminal KCH in prelogin page$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify Functionality of Submit button after selecting the terminal KCH in prelogin page$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify Functionality of Submit button after selecting the terminal KCH in prelogin page" />
+      <option name="NAME_FILTER" value="^Signup with Valid Information$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Signup with Valid Information$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Signup with Valid Information" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -131,15 +144,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify Functionality of Submit button after selecting the terminal PEN in prelogin page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify All Functionalities in prelogin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/featureFiles/otherWelcomePage.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/featureFiles/preLoginPage.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MyAirports" />
-      <option name="NAME_FILTER" value="^Verify Functionality of Submit button after selecting the terminal PEN in prelogin page$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify Functionality of Submit button after selecting the terminal PEN in prelogin page$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify Functionality of Submit button after selecting the terminal PEN in prelogin page" />
+      <option name="NAME_FILTER" value="^Verify All Functionalities in prelogin$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify All Functionalities in prelogin$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify All Functionalities in prelogin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -153,7 +166,7 @@
     </configuration>
     <configuration name="Scenario: Verify that all functionalities are working fine in EssentialServices" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/featureFiles/EssessntialServices.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/featureFiles/essentials.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MyAirports" />
@@ -191,10 +204,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestRunner" />
-        <item itemvalue="Cucumber Java.Feature: EssessntialServices" />
+        <item itemvalue="Cucumber Java.Scenario: Signup with Valid Information" />
         <item itemvalue="Cucumber Java.Scenario: Verify that all functionalities are working fine in EssentialServices" />
-        <item itemvalue="Cucumber Java.Scenario: Verify Functionality of Submit button after selecting the terminal PEN in prelogin page" />
-        <item itemvalue="Cucumber Java.Scenario: Verify Functionality of Submit button after selecting the terminal KCH in prelogin page" />
+        <item itemvalue="Cucumber Java.Scenario: Logout Functionality" />
+        <item itemvalue="Cucumber Java.Scenario: Verify All Functionalities in prelogin" />
       </list>
     </recent_temporary>
   </component>

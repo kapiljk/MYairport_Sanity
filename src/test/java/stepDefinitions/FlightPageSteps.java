@@ -15,22 +15,22 @@ public class FlightPageSteps {
     private AndroidDriver _driver;
     private PageObjectManager pm;
 
-    @Before(value = "@flight", order = 0)
+    @Before(value = "@flight or @sanity", order = 0)
     public void init() throws MalformedURLException {
         _driver = BaseSteps.getDriver();
         pm = new PageObjectManager(_driver);
     }
 
-    @After("@flight")
+    @After("@flight or @sanity")
     public void closeApp() {
         BaseSteps.closeDriver();
     }
 
-    @Before(value = "@flight", order = 1)
+    @Before(value = "@flight or @sanity", order = 1)
     public void beforeWelcomePage() {
         BaseSteps.prelogins();
     }
-    @Before(value = "@flight", order = 2)
+    @Before(value = "@flight or @sanity", order = 2)
     public void login_Into_Application_And_Enable_Location_If_Required() {
         BaseSteps.loginApplication();
     }

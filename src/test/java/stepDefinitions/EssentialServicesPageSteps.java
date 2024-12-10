@@ -13,26 +13,26 @@ import java.net.MalformedURLException;
 public class EssentialServicesPageSteps {
 
     private AndroidDriver _driver;
-    private PageObjectManager pm;
+    public PageObjectManager pm;
     private String textFromAnyOneOfService;
 
-    @Before(value = "@Stores or @homePage or @essentials or @homePageT2 or  @homePageBKI or @homePageKCH or @homePagePEN or @flights or @menu", order = 0)
+    @Before(value = "@Stores or @homePage or @essentials or @homePageT2 or  @homePageBKI or @homePageKCH or @homePagePEN or @flights or @menu or @sanity", order = 0)
     public void init() throws MalformedURLException {
         _driver = BaseSteps.getDriver();
         pm = new PageObjectManager(_driver);
     }
 
-    @After("@Stores or @homePage or @essentials or @homePageT2 or  @homePageBKI or @homePageKCH or @homePagePEN or @flights or @menu")
+    @After("@Stores or @homePage or @essentials or @homePageT2 or  @homePageBKI or @homePageKCH or @homePagePEN or @flights or @menu or @sanity")
     public void closeApp() {
         BaseSteps.closeDriver();
     }
 
-    @Before(value = "@Stores or @homePage or @essentials or @homePageT2 or  @homePageBKI or @homePageKCH or @homePagePEN or @flights or @menu", order = 1)
+    @Before(value = "@Stores or @homePage or @essentials or @homePageT2 or  @homePageBKI or @homePageKCH or @homePagePEN or @flights or @menu or @sanity", order = 1)
     public void beforeWelcomePage() {
         BaseSteps.prelogins();
     }
 
-    @Before(value = "@Stores or @homePage or @essentials or @homePageT2 or  @homePageBKI or @homePageKCH or @homePagePEN or @flights or @menu", order = 2)
+    @Before(value = "@Stores or @homePage or @essentials or @homePageT2 or  @homePageBKI or @homePageKCH or @homePagePEN or @flights or @menu or @sanity", order = 2)
     public void login_Into_Application_And_Enable_Location_If_Required() {
         BaseSteps.loginApplication();
     }
@@ -70,4 +70,30 @@ public class EssentialServicesPageSteps {
     public void verifies_the_back_arrow_icon_in_the_essential_service_page_and_clicks_on_the_back_arrow_icon() {
     pm.essentialServicePage().clickOnBackIcon();
     }
+
+    @Then("clicks on the favorite to add to favorites in Service details page")
+    public void clicks_on_the_favorite_to_add_to_favorites_in_service_details_page() {
+    pm.essentialServicePage().clickOnFavourite();
+    }
+    @Then("verifies the Rating Review text in the POI Service details page")
+    public void verifies_the_rating_review_text_in_the_poi_service_details_page() {
+    pm.essentialServicePage().verifyRatingReviewLbl();
+    }
+    @Then("verifies the Take Me There text in the POI Service details page")
+    public void verifies_the_take_me_there_text_in_the_poi_service_details_page() {
+    pm.essentialServicePage().verifyTakeMeThereLbl();
+    }
+    @Then("verifies the back arrow icon in the POI Service details page")
+    public void verifies_the_back_arrow_icon_in_the_poi_service_details_page() {
+    pm.essentialServicePage().verifyOnBackIconService();
+    }
+    @Then("clicks on the back arrow icon in the POI Service details page")
+    public void clicks_on_the_back_arrow_icon_in_the_poi_service_details_page() {
+    pm.essentialServicePage().clickOnBackIconService();
+    }
+    @Then("verifies that it takes the user to the home page from Essential Service page")
+    public void verifies_that_it_takes_the_user_to_the_home_page_from_essential_service_page() {
+        pm.homePage().verifyHomePage();
+    }
+
 }

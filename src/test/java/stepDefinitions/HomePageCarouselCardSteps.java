@@ -13,22 +13,22 @@ public class HomePageCarouselCardSteps {
     private AndroidDriver _driver;
     private PageObjectManager pm;
 
-    @Before(value = "@butterflyEffect or @trackMyFlight or @planMyJourney or @Promotions", order = 0)
+    @Before(value = "@butterflyEffect or @trackMyFlight or @planMyJourney or @Promotions or @sanity", order = 0)
     public void init() throws MalformedURLException {
         this._driver = BaseSteps.getDriver();
         pm = new PageObjectManager(_driver);
     }
 
-    @After("@butterflyEffect or @trackMyFlight or @planMyJourney or @Promotions")
+    @After("@butterflyEffect or @trackMyFlight or @planMyJourney or @Promotions or @sanity")
     public void closeApp() {
         BaseSteps.closeDriver();
     }
 
-    @Before(value = "@butterflyEffect or @trackMyFlight or @planMyJourney or @Promotions", order = 1)
+    @Before(value = "@butterflyEffect or @trackMyFlight or @planMyJourney or @Promotions or @sanity", order = 1)
     public void beforeWelcomePage() {
         BaseSteps.prelogins();
     }
-    @Before(value = "@butterflyEffect or @trackMyFlight or @planMyJourney or @Promotions", order = 2)
+    @Before(value = "@butterflyEffect or @trackMyFlight or @planMyJourney or @Promotions or @sanity", order = 2)
     public void login_Into_Application_And_Enable_Location_If_Required() {
         BaseSteps.loginApplication();
     }

@@ -47,7 +47,6 @@ public class PageObjectManager {
     public MenuPopup menuPopup;
     public YouAreNowTrackingPopup youAreNowTrackingPopup;
     public PreLoginPage preLoginPage;
-    public OtherWelcomePage otherWelcomePage;
     public EssentialServicePage essentialServicePage;
 
 
@@ -68,14 +67,6 @@ public class PageObjectManager {
         }
         return essentialServicePage;
     }
-
-    public OtherWelcomePage otherWelcomePage() {
-        if (otherWelcomePage == null) {
-            otherWelcomePage = new OtherWelcomePage(_driver);
-        }
-        return otherWelcomePage;
-    }
-
 
     public BookingServicePage bookingServicePage() {
         if (bookingServicePage == null) {

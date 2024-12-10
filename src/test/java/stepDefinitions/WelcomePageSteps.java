@@ -14,12 +14,12 @@ public class WelcomePageSteps {
     private AndroidDriver _driver;
     private PageObjectManager pm;
 
-    @Before(value = "@welcome", order = 0)
+    @Before(value = "@welcome or @sanity", order = 0)
     public void launchApplication() throws MalformedURLException {
         _driver = BaseSteps.getDriver();
         pm = new PageObjectManager(_driver);
     }
-    @Before(value = "@welcome", order = 1)
+    @Before(value = "@welcome or @sanity", order = 1)
     public void beforeWelcomePage() {
    BaseSteps.prelogins();
   }

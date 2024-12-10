@@ -35,12 +35,11 @@ public class BaseSteps {
         options.setDeviceName("Pixel 6 pro API 30");
         options.setApp(dir + "//src//main//ApkFile//Prod.apk");
         options.setUdid("emulator-5554");
-//        options.setUdid("7bc677e4");
         options.setPlatformName("Android");
         options.setPlatformVersion("Android 11");
-        URL url = new URL("http://127.0.0.1:4723/wd/hub");//uncomment for Appium server
+//        URL url = new URL("http://127.0.0.1:4723/wd/hub");//uncomment for Appium server
 
-//        URL url = new URL("http://127.0.0.1:4723"); //uncomment for cmd
+        URL url = new URL("http://127.0.0.1:4723"); //uncomment for cmd
         driver = new AndroidDriver(url, options);
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(time_out));

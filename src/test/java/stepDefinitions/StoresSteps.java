@@ -15,23 +15,23 @@ public class StoresSteps {
     private PageObjectManager pm;
     private String textFromAnyOneOfStore;
 
-    @Before(value = "@Stores", order = 0)
+    @Before(value = "@Stores or @sanity", order = 0)
     public void launchApp() throws MalformedURLException {
         System.out.println("before Login method is running");
         _driver = BaseSteps.getDriver();
         pm = new PageObjectManager(_driver);
     }
 
-    @After("@Stores")
+    @After("@Stores or @sanity")
     public void closeApp() {
         System.out.println("after Login method is running");
         BaseSteps.closeDriver();
     }
-    @Before(value = "@Stores", order = 1)
+    @Before(value = "@Stores or @sanity", order = 1)
     public void beforeWelcomePage() {
         BaseSteps.prelogins();
     }
-    @Before(value = "@Stores", order = 2)
+    @Before(value = "@Stores or @sanity", order = 2)
     public void login_Into_Application_And_Enable_Location_If_Required() {
         BaseSteps.loginApplication();
     }

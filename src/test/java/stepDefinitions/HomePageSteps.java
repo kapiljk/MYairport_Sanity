@@ -17,23 +17,23 @@ public class HomePageSteps {
     private AndroidDriver _driver;
     private PageObjectManager pm;
 
-    @Before(value = "@homePage or @homePageT2 or  @homePageBKI or @homePageKCH or @homePagePEN or @flights or @menu", order = 0)
+    @Before(value = "@homePage or @homePageT2 or  @homePageBKI or @homePageKCH or @homePagePEN or @flights or @menu or @sanity", order = 0)
     public void init() throws MalformedURLException {
         _driver = BaseSteps.getDriver();
         pm = new PageObjectManager(_driver);
     }
 
-    @After("@homePage or @homePageT2 or  @homePageBKI or @homePageKCH or @homePagePEN or @flights or @menu")
+    @After("@homePage or @homePageT2 or  @homePageBKI or @homePageKCH or @homePagePEN or @flights or @menu or @sanity")
     public void closeApp() {
         BaseSteps.closeDriver();
     }
 
-    @Before(value = "@homePage or @homePageT2 or  @homePageBKI or @homePageKCH or @homePagePEN or @flights or @menu", order = 1)
+    @Before(value = "@homePage or @homePageT2 or  @homePageBKI or @homePageKCH or @homePagePEN or @flights or @menu or @sanity", order = 1)
     public void beforeWelcomePage() {
         BaseSteps.prelogins();
     }
 
-    @Before(value = "@homePage or @homePageT2 or  @homePageBKI or @homePageKCH or @homePagePEN or @flights or @menu", order = 2)
+    @Before(value = "@homePage or @homePageT2 or  @homePageBKI or @homePageKCH or @homePagePEN or @flights or @menu or @sanity", order = 2)
     public void login_Into_Application_And_Enable_Location_If_Required() {
         BaseSteps.loginApplication();
     }
